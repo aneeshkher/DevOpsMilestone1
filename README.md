@@ -11,7 +11,7 @@
 
 
 ### Build section
->	***1.Ability to trigger a build in response to git commit via git post-commit hook***
+>	***1. Ability to trigger a build in response to git commit via git post-commit hook***
 >>	Post Commit contents:   We used a perl script in the post commit file to trigger the build on either 'dev' or 'release' branches
 
 
@@ -39,6 +39,9 @@ print "Sending curl string: $curlString\n";
 
 > 	***3. The ability to determine failure or success of a build job and trigger an external event [email]***
 >>	For this task, we configured the email plugin on Jenkins. Here are a few screenshots that demonstrate some of the configuration.
+![Screenshot1](https://github.com/aneeshkher/DevOpsMilestone1/blob/master/images/ExtendedEmailPlugin.png)  
+>>  Another screenshot showing more configuration
+![Screenshot2](https://github.com/aneeshkher/DevOpsMilestone1/blob/master/images/EmailPlugin.png)
 
 >	***4. The ability to have multiple jobs corresponding to multiple branches in a repository***	
 >>	
