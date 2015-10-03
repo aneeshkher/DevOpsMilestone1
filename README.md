@@ -1,7 +1,19 @@
 #CSC 591/791 Milestone-1
       Krishna Teja Dinavahi (kdinava)
+      	1. Setup Jenkins
+      	2. Wrote main.js to access the RESTful API
+      	3. email configuration
+      	4. Readme.md
       Aneesh Kher  (aakher)
+      	1. Setup Jenkins
+      	2. Post commit hook and email configuration
+      	3. Screencast
+      	4. Readme.md
       Anurag Sadanand Shendge (ashendg)
+      	1. Setup Jenkins
+      	2. branch specific build and email configuration	
+      	3. Readme.md
+      	4. Screencast
 
 
 ###Project used to test the builds
@@ -91,3 +103,8 @@ client.listBuilds(function(error, response)
 >>  Here is a screenshot of the list of the builds   
 
 ![Screenshot3](https://github.com/aneeshkher/DevOpsMilestone1/blob/master/images/BuildsList.png)
+
+
+#Screencast (Click the image below  and you will be redirected to YouTube)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/uwU8yQDhyNE/0.jpg)](https://youtu.be/uwU8yQDhyNE)
+
