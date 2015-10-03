@@ -27,3 +27,6 @@ if ($branch eq "release") {
 }
 print "Sending curl string: $curlString\n";
 `$curlString`;
+
+```
+### Build section
