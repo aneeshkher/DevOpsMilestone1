@@ -43,4 +43,32 @@ print "Sending curl string: $curlString\n";
 >	***4. The ability to have multiple jobs corresponding to multiple branches in a repository***	
 >>	
 
+>	***5. The ability to track and display a history of past builds.***
+>> 	The following code snippet helps us dispaly the history of past builds by making a GET request to the REST API provided by Jenkins
 
+```javascript
+var git = require('git-rev');
+var needle = require("needle");
+
+var brnc;
+
+var client =
+{
+    listBuilds: function( onResponse )
+    {
+        git.branch(function (str) {
+        if(str=="dev")
+        	needle.get("http://localhost:8080/jenkins/job/M1-dev/api/json?pretty=true", onResponse)
+        else if(str=="release")
+         	needle.get("http://localhost:8080/jenkins/job/M1-release/api/json?pretty=true", onResponse)
+		})
+    },
+}
+
+client.listBuilds(function(error, response)
+{
+        var data = response.body;
+        console.log(data['builds']);
+});
+
+```
