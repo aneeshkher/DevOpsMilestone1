@@ -11,7 +11,7 @@
 
 
 ### Build section
->	***Ability to trigger a build in response to git commit via git post-commit hook***
+>	***1.Ability to trigger a build in response to git commit via git post-commit hook***
 >>	Post Commit contents:   We used a perl script in the post commit file to trigger the build on either 'dev' or 'release' branches
 
 
@@ -32,6 +32,7 @@ print "Sending curl string: $curlString\n";
 `$curlString`;
 
 ```	
->	*** 2. The ability to execute a build job via a script or build manager (e.g., shell, maven), which ensures a clean build each time.***	
+
+>	***2. The ability to execute a build job via a script or build manager (e.g., shell, maven), which ensures a clean build each time.***
 
 	
