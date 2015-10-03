@@ -4,10 +4,14 @@
       Anurag Sadanand Shendge (ashendg)
 
 
-##Project used to test the builds
-###[jbehave](https://github.com/aneeshkher/jbehave-web) forked from [this](https://github.com/jbehave/jbehave-web) link
+###Project used to test the builds
+***[jbehave](https://github.com/aneeshkher/jbehave-web) forked from [this](https://github.com/jbehave/jbehave-web) link***
 >   JBehave is a collection of extension for JBehave that extend its capabilities in ways related to HTTP and the web.
     We forked this application and using it to test our builds.
+
+###Build Setup
+> 
+
 
 
 ### Build section
@@ -42,6 +46,7 @@ print "Sending curl string: $curlString\n";
 ![Screenshot1](https://github.com/aneeshkher/DevOpsMilestone1/blob/master/images/ExtendedEmailPlugin.png)  
 >>  Another screenshot showing more configuration
 ![Screenshot2](https://github.com/aneeshkher/DevOpsMilestone1/blob/master/images/EmailPlugin.png)
+>>	
 
 >	***4. The ability to have multiple jobs corresponding to multiple branches in a repository***	
 >>	
