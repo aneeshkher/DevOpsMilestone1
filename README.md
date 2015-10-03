@@ -79,4 +79,8 @@ client.listBuilds(function(error, response)
         console.log(data['builds']);
 });
 
-```
+```  
+  
+>>  Here is a screenshot of the list of the builds   
+
+![Screenshot3](https://github.com/aneeshkher/DevOpsMilestone1/blob/master/images/BuildsList.png)
