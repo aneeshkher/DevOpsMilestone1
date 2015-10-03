@@ -10,7 +10,9 @@
     We forked this application and using it to test our builds.
 
 ###Build Setup
-> 
+>   We installed Tomcat,Jenkins,git, maven on our local machine. We used the follwing plugins in Jenkins:   
+	1. Github Plugin   
+	2. Mailer Plugin
 
 
 
@@ -42,10 +44,14 @@ print "Sending curl string: $curlString\n";
 
 
 > 	***3. The ability to determine failure or success of a build job and trigger an external event [email]***
->>	For this task, we configured the email plugin on Jenkins. Here are a few screenshots that demonstrate some of the configuration.
-![Screenshot1](https://github.com/aneeshkher/DevOpsMilestone1/blob/master/images/ExtendedEmailPlugin.png)  
->>  Another screenshot showing more configuration
-![Screenshot2](https://github.com/aneeshkher/DevOpsMilestone1/blob/master/images/EmailPlugin.png)
+>>	For this task, we configured the email plugin on Jenkins. Here are a few screenshots that demonstrate some of the configuration.   
+
+![Screenshot1](https://github.com/aneeshkher/DevOpsMilestone1/blob/master/images/ExtendedEmailPlugin.png)   
+
+>>  Another screenshot showing more configuration   
+
+![Screenshot2](https://github.com/aneeshkher/DevOpsMilestone1/blob/master/images/EmailPlugin.png)   
+
 >>	
 
 >	***4. The ability to have multiple jobs corresponding to multiple branches in a repository***	
