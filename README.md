@@ -11,7 +11,7 @@
 
 
 ### Build section
->	*** 1. Ability to trigger a build in response to git commit via git post-commit hook***
+>	***Ability to trigger a build in response to git commit via git post-commit hook***
 >>	Post Commit contents:   We used a perl script in the post commit file to trigger the build on either 'dev' or 'release' branches
 
 
