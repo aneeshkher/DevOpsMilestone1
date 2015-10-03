@@ -1,7 +1,19 @@
 #CSC 591/791 Milestone-1
       Krishna Teja Dinavahi (kdinava)
+      	1. Setup Jenkins
+      	2. Wrote main.js to access the RESTful API
+      	3. email configuration
+      	4. Readme.md
       Aneesh Kher  (aakher)
+      	1. Setup Jenkins
+      	2. Post commit hook and email configuration
+      	3. Screencast
+      	4. Readme.md
       Anurag Sadanand Shendge (ashendg)
+      	1. Setup Jenkins
+      	2. branch specific build and email configuration	
+      	3. Readme.md
+      	4. Screencast
 
 
 ###Project used to test the builds
