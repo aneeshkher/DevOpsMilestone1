@@ -34,5 +34,6 @@ print "Sending curl string: $curlString\n";
 ```	
 
 >	***2. The ability to execute a build job via a script or build manager (e.g., shell, maven), which ensures a clean build each time.***
+>>	As jbehave was a Java Maven project, we used maven to ensure a clean build each time. pom.xml was provided by Authors of jbehave
 
 	
