@@ -38,7 +38,7 @@ print "Sending curl string: $curlString\n";
 
 
 > 	***3. The ability to determine failure or success of a build job and trigger an external event [email]***
->>	
+>>	For this task, we configured the email plugin on Jenkins. Here are a few screenshots that demonstrate some of the configuration.
 
 >	***4. The ability to have multiple jobs corresponding to multiple branches in a repository***	
 >>	
