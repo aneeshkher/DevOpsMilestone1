@@ -1,21 +1,21 @@
 #CSC 591/791 Milestone-1   
 ##Team members
-1. Krishna Teja Dinavahi  
-2. Aneesh Kher  
-3. Anurag Shendge  
+1. Krishna Teja Dinavahi (kdinava) 
+2. Aneesh Kher (aakher)
+3. Anurag Shendge (ashendg)
 
 ##Contributions
-##### Krishna Teja Dinavahi (kdinava)
+##### Krishna Teja Dinavahi 
       	1. Setup Jenkins
       	2. Wrote main.js to access the RESTful API
       	3. email configuration
       	4. Readme.md
-##### Aneesh Kher  (aakher)
+##### Aneesh Kher  
       	1. Setup Jenkins
       	2. Post commit hook and email configuration
       	3. Screencast
       	4. Readme.md
-##### Anurag Sadanand Shendge (ashendg)
+##### Anurag Sadanand Shendge 
       	1. Setup Jenkins
       	2. branch specific build and email configuration	
       	3. Readme.md
