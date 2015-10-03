@@ -28,7 +28,7 @@
     We forked this application and using it to test our builds.
 
 ###Build Setup
->   We installed Tomcat,Jenkins,git, maven on our local machine. We used the follwing plugins in Jenkins:   
+>   We installed Tomcat, Jenkins, git, and maven on our local machine. We used the follwing plugins in Jenkins:   
 	1. **Github Plugin**: The github plugin helps us to use our repo by specifying git clone url for build process    
 	2. **Mailer Plugin**: The mailer plugin is used to send emails from Jenkins to notify about the build status
 
