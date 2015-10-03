@@ -1,4 +1,10 @@
-#CSC 591/791 Milestone-1
+#CSC 591/791 Milestone-1   
+###Team members
+1. Krishna Teja Dinavahi  
+2. Aneesh Kher  
+3. Anurag Shendge  
+
+
 #### Krishna Teja Dinavahi (kdinava)
       	1. Setup Jenkins
       	2. Wrote main.js to access the RESTful API
