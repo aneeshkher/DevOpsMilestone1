@@ -30,3 +30,24 @@ print "Sending curl string: $curlString\n";
 
 ```
 ### Build section
+>	***Ability to trigger a build in response to git commit via git post-commit hook***
+>>	
+
+```perl
+#!/usr/bin/perl
+my $branch = `git rev-parse --abbrev-ref HEAD`;
+chomp($branch);
+print "Committing to branch $branch\n";
+
+my $curlString;
+
+if ($branch eq "release") {
+	$curlString = 'curl -s "http://localhost:8080/jenkins/job/M1-release/buildWithParameters?token=build-release&branch=release"';
+} elsif ($branch eq "dev") {
+	$curlString = 'curl -s "http://localhost:8080/jenkins/job/M1-dev/buildWithParameters?token=build-dev&branch=dev"';
+}
+print "Sending curl string: $curlString\n";
+`$curlString`;
+
+```	
+	
