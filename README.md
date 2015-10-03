@@ -68,6 +68,15 @@ print "Sending curl string: $curlString\n";
 
 >	***4. The ability to have multiple jobs corresponding to multiple branches in a repository***	
 >>	We added one job in Jenkins which corresponds to each job in git. The post-commit git hook will get the current branch on which the commit is made and will trigger the respective job on Jenkins. Each job of jenkins is configured as a parameterized build, which will accept the build string from the git post-commit hook and run the build on the local repository according to that.   
+   
+>>  Here is a screenshot showing the 'parameterized' field enabled   
+
+![Screenshot4](https://github.com/aneeshkher/DevOpsMilestone1/blob/master/images/M1-Release-config-1.png)   
+   
+>>  Another screenshot showing the build trigger configuration in Jenkins   
+ 
+![Screenshot5](https://github.com/aneeshkher/DevOpsMilestone1/blob/master/images/M1-release-config-2.png)   
+
  
 
 >	***5. The ability to track and display a history of past builds.***
