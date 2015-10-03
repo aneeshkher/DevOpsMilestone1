@@ -43,7 +43,7 @@ print "Sending curl string: $curlString\n";
 >>	As jbehave is a Java application, we installed maven and integrated it with Jenkins to ensure a clean build each time. pom.xml was provided by Authors of jbehave.
 
 
-> 	***3. The ability to determine failure or success of a build job and trigger an external event [email]***
+>   ***3. The ability to determine failure or success of a build job and trigger an external event [email]***
 >>	For this task, we configured the email plugin on Jenkins. Here are a few screenshots that demonstrate some of the configuration.   
 
 ![Screenshot1](https://github.com/aneeshkher/DevOpsMilestone1/blob/master/images/ExtendedEmailPlugin.png)   
@@ -55,7 +55,8 @@ print "Sending curl string: $curlString\n";
 >>	
 
 >	***4. The ability to have multiple jobs corresponding to multiple branches in a repository***	
->>	
+>>	We added one job in Jenkins which corresponds to each job in git. The post-commit git hook will get the current branch on which the commit is made and will trigger the respective job on Jenkins.  
+
 
 >	***5. The ability to track and display a history of past builds.***
 >> 	The following code snippet helps us dispaly the history of past builds by making a GET request to the REST API provided by Jenkins
