@@ -5,7 +5,7 @@
 
 
 ##Project used to test the builds
-###[jbehave](https://github.com/aneeshkher/jbehave-web)
+###[jbehave](https://github.com/aneeshkher/jbehave-web) forked from [this](https://github.com/jbehave/jbehave-web) link
 >   JBehave is a collection of extension for JBehave that extend its capabilities in ways related to HTTP and the web.
     We forked this application and using it to test our builds.
 
@@ -34,6 +34,6 @@ print "Sending curl string: $curlString\n";
 ```	
 
 >	***2. The ability to execute a build job via a script or build manager (e.g., shell, maven), which ensures a clean build each time.***
->>	As jbehave was a Java Maven project, we used maven to ensure a clean build each time. pom.xml was provided by Authors of jbehave
+>>	As jbehave is a Java application, we installed maven and integrated it with Jenkins to ensure a clean build each time. pom.xml was provided by Authors of jbehave.
 
 	
