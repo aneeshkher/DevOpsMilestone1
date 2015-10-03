@@ -36,4 +36,7 @@ print "Sending curl string: $curlString\n";
 >	***2. The ability to execute a build job via a script or build manager (e.g., shell, maven), which ensures a clean build each time.***
 >>	As jbehave is a Java application, we installed maven and integrated it with Jenkins to ensure a clean build each time. pom.xml was provided by Authors of jbehave.
 
+
+> 	***3. The ability to determine failure or success of a build job and trigger an external event [email]***
+>>	
 	
