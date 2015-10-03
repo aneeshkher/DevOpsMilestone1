@@ -55,8 +55,8 @@ print "Sending curl string: $curlString\n";
 >>	
 
 >	***4. The ability to have multiple jobs corresponding to multiple branches in a repository***	
->>	We added one job in Jenkins which corresponds to each job in git. The post-commit git hook will get the current branch on which the commit is made and will trigger the respective job on Jenkins.  
-
+>>	We added one job in Jenkins which corresponds to each job in git. The post-commit git hook will get the current branch on which the commit is made and will trigger the respective job on Jenkins. Each job of jenkins is configured as a parameterized build, which will accept the build string from the git post-commit hook and run the build on the local repository according to that.   
+ 
 
 >	***5. The ability to track and display a history of past builds.***
 >> 	The following code snippet helps us dispaly the history of past builds by making a GET request to the REST API provided by Jenkins
